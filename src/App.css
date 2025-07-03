@@ -1,0 +1,74 @@
+body {
+  background-image: url('/src/assets/background1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.root {
+  justify-content: center;
+  margin: 480px;
+  padding: 3rem;
+  text-align: center;
+  width: 1600px;
+}
+
+#root {
+  justify-content: center;
+  text-align: center;
+}
+
+.botao1 {
+  font-size: 100px;
+  font-style: italic;
+  /* size: 10px; */
+}
+
+
+.logo {
+  height: 30em;
+  will-change: filter;
+  transition: filter 300ms;
+  align-items: center;     
+}
+
+
+.elementMod {
+  /* height: 6em;
+  padding: 9.5em;
+  will-change: filter;
+  transition: filter 300ms; */
+}
+
+
+.logo,.elementMod:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
