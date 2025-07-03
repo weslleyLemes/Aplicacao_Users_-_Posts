@@ -34,17 +34,6 @@ Inicie o servidor de desenvolvimento:
 npm run dev    # ou npm start, se estiver usando CRA
 Acesse em: http://localhost:3000
 
-Estrutura do projeto
-css
-src/
-├── components/
-│   ├── LoadingProgress.jsx
-│   └── UserPostsModal.jsx
-├── pages/
-│   └── Users.jsx
-├── App.jsx
-├── main.jsx
-Deploy com Vercel
 
 A barra de loading possui um atraso artificial de 4 segundos para simular experiência de carregamento real.
 
